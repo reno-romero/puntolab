@@ -1,0 +1,90 @@
+@media screen and (min-width:960px){  
+
+	body
+	{
+		background: #221e1f;
+		color: #aaa;
+		max-width: 1600px;
+	}
+	footer
+	{
+		background: #0879db;
+		bottom: 0;
+		height: 2em;
+		position: fixed;
+		width: 100%;
+	}
+	h1
+	{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	h3
+	{
+		display: inline-block;
+		font-size: 2.5em;
+		margin-top: 1.5em;
+		vertical-align: top;
+		width: 70%;
+	}
+	nav
+	{
+		display: block;
+		margin-top: 8em;
+		width: 100%;
+	}
+	nav ul
+	{
+		list-style: none;
+		text-align: center;
+	}
+	nav ul li
+	{
+		display: inline-block;
+		background: #fe3f32;
+		margin-right: 2.5em;
+		padding: .75em;
+	}
+	nav ul li a
+	{
+		color: #fff;
+		font-size: 1.5em;
+	}
+	section
+	{
+		margin-bottom: 2em;
+	}
+	section#contacto
+	{
+		background: #0879db;
+		padding: .5em;
+		width: 30%;	
+	}
+	section#contacto form input, section#contacto form textarea
+	{
+		display: block;
+		margin: .5em auto;
+		text-align: center;
+	}
+	section#cotiza
+	{
+		background: #fff;
+		color: #4c4c4c;
+		margin: 0 auto;
+		padding: 1em;
+		text-align: center;
+		width: 70%;
+	}
+	section#cotiza span
+	{
+		display: block;
+		margin-top: 1em;
+	}
+	section#inicio figure
+	{
+		display: inline-block;
+		width: 20%;
+	}
+}
