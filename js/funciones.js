@@ -25,5 +25,4 @@ $(document).ready(function(){
 		//$("#animacion_inicio").hide();
 	},3000);*/
 	
-	
 });
