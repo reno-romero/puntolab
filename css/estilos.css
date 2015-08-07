@@ -1,30 +1,85 @@
 body
 {
-	background: rgba(10,10,10,1);
-	background: -moz-linear-gradient(left, rgba(10,10,10,1) 0%, rgba(32,0,102,1) 99%, rgba(0,0,0,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(10,10,10,1)), color-stop(99%, rgba(32,0,102,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(left, rgba(10,10,10,1) 0%, rgba(32,0,102,1) 99%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(left, rgba(10,10,10,1) 0%, rgba(32,0,102,1) 99%, rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(left, rgba(10,10,10,1) 0%, rgba(32,0,102,1) 99%, rgba(0,0,0,1) 100%);
-	background: linear-gradient(to right, rgba(10,10,10,1) 0%, rgba(32,0,102,1) 99%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#000000', GradientType=1 );
-	background: #111;
+	background: #000;
+	margin: 0;
+	padding: 0;
+}
+footer#footer_ayuda
+{
+	background: #9F0000;
+	bottom: 0;
+	color: #ccc;
+	font-family: 'Raleway' , Arial;
+	font-weight: bold;
+	padding: .25em 0;
+	position: fixed;
 	text-align: center;
 	width: 100%;
 }
+footer#footer_ayuda a
+{
+	color: white;
+	display: block;
+	padding: .5em 0;
+}
+footer#index
+{	
+	background: #252525;
+	text-align: center;
+	font-family: 'Raleway' , Arial;
+	font-size: .95em;
+	margin: 0;
+	position: absolute;
+	bottom: .25em;
+	width: 100%;
+}
+header
+{
+	float: left;
+	margin-top: 1em;
+	padding: 1em 0em;
+	padding-bottom: 0;
+	width: 100%;
+}
+nav#menu 
+{
+	background: #fff;
+	border-radius: 5px;
+	margin: 0;
+	margin-top: 0em;
+	margin-right: 1em;
+	padding: .5em;
+	position: absolute;
+	right: -.5em;
+	top: 1.5em;
+}
+nav#menu img
+{
+	width: 2em;
+}
+nav#menu li 
+{
+	display: none;
+}
+textarea
+{
+	height: 8em;
+	font-size: 1em;
+	padding: 0 .25em;
+	padding-top: 3em;
+}
 #animacion_inicio
 {
+	display: none;
 	margin: 0 auto;
 }
 #animacion_inicio figure figcaption
 {
 	color: #ccc;
-	//border-bottom: 2px white solid;
 	font-family: 'Raleway' , Arial;
 	font-size: 3em;
 	font-weight: bold;
 	margin: 0;
-	//padding-bottom: 2em;
 	position: relative;
 	text-shadow: rgb(250,250,250) 0px 0px 100px;
 	text-align: center;
@@ -77,5 +132,380 @@ body
   	-webkit-animation-delay: 1s;
   	-webkit-animation-iteration-count: infinite;
 }
+#btn-enviar
+{
+	background: #338CA6;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.15em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 1em 0;
+	width: 100%;
+}
+#formulario_ayuda 
+{
+	position: relative;
+	top: -3em;
+}
+#formulario_ayuda input,#formulario_ayuda textarea
+{
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+}
+#formulario_ayuda #btn-enviar
+{
+	margin-bottom: 2.5em;
+}
+#logo_ayuda
+{
+	position: relative;
+	top: -2em;
+}
+#logo_ayuda img
+{
+	width: 70%;
+}
+#logo_ayuda figcaption
+{
+	color: #fff;
+	font-family: "Raleway", Arial;	
+	left: 1em;
+	position: relative;
+	top: -1em;
+}
+#social_ayuda
+{
+	position: relative;
+	top: -3em;
+}
+#social_ayuda a img
+{
+	margin-left: .5em;
+	width: 1.75em;
+}
+.animated
+{
+	font-size: .85em;
+}
+.botones
+{
+	border: solid #fff 2px;
+	font-weight:  bold;
+}
+.cajas
+{
+	border-radius: 8px;
+	font-size: 1.15em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding: .25em 0;
+	width: 100%;
+}
+.espanol
+{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	color: white;
+}
+.espanol header figure#logo img
+{
+	left: -3.5em;
+	position: relative;
+	top: -3em;
+	width: 16em;
 
+}
+.espanol header figure.social 
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+}
+.espanol header figure.social a img
+{
+	position: relative;
+	margin-right: 1em;
+	top: -4.5em;
+	width: 2em;
+}
+.espanol header figure figcaption
+{
+	font-family: "Raleway", Arial;
+	font-size: 1.15em;
+	left: -2.5em;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -3.5em;
+}
+.espanol #contacto
+{
+	background: #252525;
+	font-family: "Raleway", Arial;
+	margin: 0 auto;
+	padding-bottom: 3em;
+	padding-top: 1em;
+	position: relative;
+	top: -5.5em;
+	width: 100%;
+}
+.espanol #contacto form
+{
+	margin: 0 auto;
+	margin-top: 2em;
+	width: 90%
+}
+.espanol #contacto #direcciones
+{
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	margin: 1em auto;
+	padding: 2em 0;
+	width: 95%;
+}
+.espanol #contacto iframe
+{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 2em;
+	width: 90%;
+}
+.espanol #contacto #direcciones span
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	padding-left: .2em;
+}
+.espanol #contacto .social a img
+{
+	position: relative;
+	margin-right: 1em;
+	width: 2em;
+}
+.espanol #cotizador
+{
+	background: #222222;
+	font-family: "Raleway", Arial;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	position: relative;
+	top: -5.5em;
+	width: 100%;
+}
+.espanol #cotizador .contenedores
+{
+	text-align: left;
+}
+.espanol #cotizador .contenedores #btn_cotiza
+{
+	background: #5F5F5F;
+	margin: 2em auto;
+	padding: 1em;
+	text-align: center;
+	width: 50%;
+}
+.espanol #cotizador .contenedores #btn_mas
+{
+	background: #3ABAE0;
+	margin-left: 1em;
+	margin-top: 2em;
+	padding: .25em;
+	text-align: center;
+	width: 30%;
+}
+.espanol #cotizador .contenedores #lbl_ayuda
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 100%;
+}
+.espanol #servicios
+{
+	background: #4E4E4E;
+	clear: both;
+	height: 35.5em;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 2em;
+	position: relative;
+	top: -4em;
+	width: 100%;
+}
+.espanol #servicios #contenedor-flexslider
+{   
+    border-bottom: 300px solid transparent;
+    border-right: 100px solid white;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: -4em;
+	width: 60%;
+	z-index: 2;
+}
+.espanol #servicios .contenido
+{
+	background: #5F5F5F;
+	display: block;
+	font-family: "Raleway";
+	height: 17em;
+	margin: 0 auto;
+	padding: 1em 0;
+	position: relative;
+	text-align: left;
+	top: -23em;
+	width: 90%;
+	z-index: 1;
+}
+.espanol #servicios .contenido li
+{
+	display: block;	
+	font-family: "Raleway", Arial;
+	font-size: .95em;
+	margin: 0 0 0 .5em;
+	width: 85%;
+}
+.espanol #servicios #img-servicios
+{
+	background: #3ABAE0; 
+	border-radius: 150px;
+	bottom: -14em;
+	color: #fff;
+	display: block;
+	font-family: Arial;
+	font-size: 1.15em;
+	font-weight: bold;
+	height: 2em;
+	left: 10em;
+	padding-top: 1em;
+	position: relative;	
+	text-align: center;
+	width: 3em;
+	z-index: 100;
+}
+.espanol #servicios_especializados
+{
+	background: #313131;
+	font-family: "Raleway", Arial;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	position: relative;
+	top: -5.5em;
+	width: 100%;
+}
+.espanol #servicios_especializados #consultoria figure
+{	
+	background: #F5C199;
+}
+.espanol #servicios_especializados #soporte figure
+{	
+	background: #7F7F7F;
+}
+.espanol #servicios_especializados #ventas figure
+{	
+	background: #fff;
+}
+.espanol #servicios_especializados .art_servicios
+{
+	margin: 0 auto;
+	margin-top: 2em;
+	//overflow: hidden;
+	width: 90%;
+}
+.espanol #servicios_especializados .art_servicios figure
+{
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding: 1em;
+	text-align: center;
+	width: 90%;
+}
+.espanol #servicios_especializados .art_servicios figure img
+{
+	width: 8em;
+}
+.espanol #servicios_especializados .art_servicios .btn_leerMas
+{
+	background: #222222;
+	border: solid #fff 1px;
+	cursor: pointer;
+	display: block;
+	font-size: .8em;
+	margin-top: 1em;
+	padding: .5em;
+	text-align: center;
+	width: 7em;
+	
+}
 
+.espanol #servicios_especializados .art_servicios #descripcion-soporte, #descripcion-consultoria, #descripcion-ventas
+{
+	position: relative;
+	display: none;
+	
+}
+.flexslider
+{
+	background: white;
+	height: 15em;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 140%;
+}
+.flexslider .slides
+{
+	width: 90%;
+}
+.flexslider .slides li
+{
+	display: block;
+	width: 90%;
+}
+.flexslider .slides li img
+{
+	display: block;
+	left: 2.2em;
+	position: relative;
+	top: 3em;
+	width: 80%;
+}
+.links
+{
+	color: #3ABAE0;
+}
+.mostrar
+{
+	background: #fff;
+	//opacity: .5;
+}
+.subtitulos
+{
+	display: block;
+	font-size: 1.5em; 
+	font-weight: bold;
+	margin: 1em 0 0 .5em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+.sub_azul
+{
+	color: #3ABAE0;
+	display: block;
+	font-family: 'Raleway' , Arial;
+	font-size: 1.75em; 
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}

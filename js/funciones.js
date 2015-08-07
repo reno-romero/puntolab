@@ -1,8 +1,23 @@
-<<<<<<< HEAD
- 
 $(document).ready(function(){
+	$('.flexslider').flexslider({
+    animation: "slide"
+  	});
 
-
+  	$('#btn_leerMas_soporte').click(function(){
+  		$('#descripcion-soporte').css("display","block").addClass("bounceInLeft");
+  		$('#descripcion-ventas').css("display","none");
+		$('#descripcion-consultoria').css("display","none");
+  	});
+  	$('#btn_leerMas_consultoria').click(function(){
+  		$('#descripcion-consultoria').css("display","block").addClass("bounceInLeft");
+  		$('#descripcion-soporte').css("display","none");
+		$('#descripcion-ventas').css("display","none");
+  	});
+  	$('#btn_leerMas_ventas').click(function(){
+  		$('#descripcion-ventas').css("display","block").addClass("bounceInLeft");
+  		$('#descripcion-soporte').css("display","none");
+		$('#descripcion-consultoria').css("display","none");
+  	});
 	/*      BLOQUE PARA PONER Y ANIMAR PRGRESS BAR *
 	window.setTimeout(function(){
 			var progressbar = $('#barra'),
@@ -25,25 +40,5 @@ $(document).ready(function(){
 	window.setTimeout(function(){
 		//$("#animacion_inicio").hide();
 	},3000);*/
-	
-=======
-$(document).ready(function(){
-	
 
-	//flexslider
-	$(function(){
-      SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-    ////////////////////
-
-    
->>>>>>> eb288d4e1f0af4662154666941461940d14e8c84
 });

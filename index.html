@@ -5,23 +5,157 @@
  	<title>PuntoLab</title>
 
  	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
- 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
  	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+ 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
  	<script type="text/javascript" src="js/jquery.js"></script>
+ 	<script type="text/javascript" src="js/flexslider.js"></script>
  	<script type="text/javascript" src="js/funciones.js"></script>
  </head>
  <body>
 	 <div id="animacion_inicio">
-	 	<header>
+	 	<div>
 	 		<figure>
-	 			<img class="animated rubberBand" src="img/logo_corto.png">
+	 			<img class="animated rubberBand" src="img/logo1.png">
 	 			<figcaption class="animated shake">Diseño Web Especializado</figcaption>
 	 		</figure>
 	 		<!--progress class="animated" id='barra' max='40' value='0'></progress>
 	 		<span id="loading" class="animated">Loading...</span-->
-	 	</header>
+	 	</div>
 	 </div>
- 	
+	 <div class="espanol">
+	 	<header>
+	 		<figure id="logo">
+	 			<img src="img/logo1.png">
+	 			<figcaption>Diseño Web Especializado</figcaption>
+	 		</figure>
+	 		<figure class="social">
+	 			<a href="https://www.facebook.com/profile.php?id=100009574957568" target="_blank" alt="facebook"><img src="img/social/facebook.svg"></a>
+	 			<a href="" target="_blank"><img src="img/social/twitter.svg" alt="twitter"></a>
+	 			<a href="https://github.com/PuntoLab" target="_blank" alt="git-hub"><img src="img/social/github4.svg"></a>
+	 		</figure>
+	 	</header>
+	 	<nav id="menu">
+	 		<a href=""><img src="img/menu.svg"></a>
+		 	<li><a href="">Inicio</a></li>
+		 	<li><a href="">Proyectos</a></li>
+		 	<li><a href="">Nosotros</a></li>
+		 	<li><a href="">Contacto</a></li>
+	 	</nav>
+	 	<section id="servicios">
+			<span id="img-servicios">WEB</span>
+	 		<div id="contenedor-flexslider">
+		 		<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+				      <img src="img/antenas.jpeg" />
+				    </li>
+				    <li>
+				      <img src="img/pcs.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/responsive.jpg" />
+				    </li>
+				    <li>
+				      <img src="img/puntolab.svg" />
+				    </li>
+				    <li>
+				      <img src="img/logo1.svg" />
+				    </li>
+				  </ul>
+				</div>
+			</div>
+			<div class="contenido">
+				<span class="subtitulos">SERVICIOS</span>
+				<li>+ Diseño Web y App's.</li>
+				<li>+ Maquetación Web.</li>
+				<li>+ Tiendas Virtuales.</li>
+				<li>+ Soporte técnico en línea.</li>
+				<li>+ Consultorias.</li>
+				<li>+ Venta de equipo de cómputo.</li>
+				<li>+ Cámaras de seguridad.</li>
+			</div>
+	 	</section>
+	 	<section id="cotizador">
+	 		<div class="contenedores">
+	 			<span class="sub_azul">¿NO SABES CÓMO EMPEZAR?</span>
+	 			<span id="lbl_ayuda">TE AYUDAMOS.</span>
+	 			<div id="btn_mas" class="botones"><a href="ayuda.html">Ver mas</a></div>
+	 			<!--div id="btn_cotiza" class="botones">COTIZADOR</div-->
+	 		</div>
+	 	</section>
+	 	<section id="servicios_especializados">
+	 		<article id="soporte" class="art_servicios">
+	 			<span class="sub_azul">Soporte Técnico</span>
+	 			<figure><img src="img/servicios/tools.svg"></figure>
+	 			<p id="descripcion-soporte" class="animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 			<span id="btn_leerMas_soporte" class="btn_leerMas">Leer mas</span>
+	 		</article>
+	 		<article id="consultoria" class="art_servicios">
+	 			<span class="sub_azul">Consultoría</span>
+	 			<figure><img src="img/servicios/help.svg"></figure>
+	 			<p id="descripcion-consultoria" class="animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 			<span id="btn_leerMas_consultoria" class="btn_leerMas">Leer mas</span>
+	 		</article>
+	 		<article id="ventas" class="art_servicios">
+	 			<span class="sub_azul">Ventas</span>
+	 			<figure><img src="img/servicios/carrito.svg"></figure>
+	 			<p id="descripcion-ventas" class="animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	 			<span id="btn_leerMas_ventas" class="btn_leerMas">Leer mas</span>
+	 		</article>
+	 	</section>
+	 	<section id="contacto">
+	 		<span class="sub_azul">Contacto</span>
+	 		<form id="formulario" action="enviar.php" method="post">
+	 			<input class="cajas" type="text" name="nombre" placeholder="Nombre" required/>
+				</br>
+				</br>
+				<input class="cajas" type="email" name="email"/ placeholder="e-mail" required/>
+				</br>
+				</br>
+				<textarea class="cajas" id="mensaje" name="mensaje" placeholder="Escribe el mensaje y nos contactaremos contigo a la brevedad." required></textarea>
+				</br>
+				<input  id="btn-enviar" type="submit" value="Enviar" class="boton"/>
+			</form>
+			<article id="direcciones">
+				<span class=" sub_azul">Direcciones</span>
+				<br/>
+				<span>Mena #65 A</span>
+				</br>
+				<span>Zona Centro</span>
+				</br>
+				<span>Valle de Santiago, Guanajuato, Mex.</span>
+				</br>
+				<span>
+				<span class="links">r_romero@puntolab.net</span> || <span class="links">ag_contreras@puntolab.net</span>
+			</article>
+			<article class="social">
+				<a href="https://www.facebook.com/profile.php?id=100009574957568" target="_blank" alt="facebook"><img src="img/social/facebook.svg"></a>
+	 			<a href="" target="_blank"><img src="img/social/twitter.svg" alt="twitter"></a>
+	 			<a href="https://github.com/PuntoLab" target="_blank" alt="git-hub"><img src="img/social/github4.svg"></a>
+			</article>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3739.7911294109763!2d-101.17742200275211!3d20.39150011309118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x842c8d70e7a378fb%3A0x383ab898d6c3bd12!2sMena+65%2C+Centro%2C+38400+Valle+de+Santiago%2C+Gto.!3m2!1d20.3914951!2d-101.1751153!5e0!3m2!1ses-419!2smx!4v1438880342949" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	 	</section>
+	 	<footer id="index">
+	 		<p>&#169; 2015 www.puntolab.net </p>
+	 	</footer>
+	 </div> 	
  </body>
- </html>git@github.com:reno-romero/puntolab.git
+ </html>

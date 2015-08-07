@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"/>
+ 	<title>PuntoLab</title>
+
+ 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+ 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+ 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+ 	<script type="text/javascript" src="js/jquery.js"></script>
+ 	<script type="text/javascript" src="js/flexslider.js"></script>
+ 	<script type="text/javascript" src="js/funciones.js"></script><title>PuntoLab</title>
+</head>
+<body>
+	<div id="necesito_ayuda">
+		<header>
+		 	<figure id="logo_ayuda">
+		 		<img src="img/logo1.png">
+		 		<figcaption>Diseño Web Especializado</figcaption>
+		 	</figure>
+		 	<figure id="social_ayuda">
+		 		<a href="https://www.facebook.com/profile.php?id=100009574957568" target="_blank" alt="facebook"><img src="img/social/facebook.svg"></a>
+		 		<a href="" target="_blank"><img src="img/social/twitter.svg" alt="twitter"></a>
+		 		<a href="https://github.com/PuntoLab" target="_blank" alt="git-hub"><img src="img/social/github4.svg"></a>
+		 	</figure>
+	 	</header>	
+		<form id="formulario_ayuda" action="enviar_ayuda.php" method="post">
+	 			<input class="cajas" type="text" name="nombre" placeholder="Nombre" required/>
+				</br>
+				<input class="cajas" type="email" name="email"/ placeholder="e-mail" required/>
+				</br>
+				<input class="cajas" type="text" name="empresa" placeholder="Empresa (giro)" required/>
+				</br>
+				<input class="cajas" type="tel" name="tel" placeholder="Teléfono" required/>
+				</br>
+				<textarea class="cajas" id="mensaje" name="mensaje" placeholder="¿Qué necesitas? Escribe tu mensaje..." required></textarea>
+				</br>
+				<input  id="btn-enviar" type="submit" value="Enviar" class="boton"/>
+			</form>	
+		<footer id='footer_ayuda'>
+			<a href="index.html">Regresar</a>
+		</footer>
+	</div>
+</body>
+</html>
